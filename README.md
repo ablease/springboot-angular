@@ -22,3 +22,5 @@ export OKTA_OAUTH2_CLIENT_SECRET=
 export CYPRESS_E2E_DOMAIN=
 export CYPRESS_E2E_USERNAME=
 export CYPRESS_E2E_PASSWORD=
+
+Thank you to this great article on auth0.com https://auth0.com/blog/spring-boot-angular-crud/

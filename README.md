@@ -23,4 +23,8 @@ export CYPRESS_E2E_DOMAIN=
 export CYPRESS_E2E_USERNAME=
 export CYPRESS_E2E_PASSWORD=
 
+Run the spring app `mvn spring-boot:run -Pprod`
+
+Run the angular app `cd app && npm start`
+
 Thank you to this great article on auth0.com https://auth0.com/blog/spring-boot-angular-crud/

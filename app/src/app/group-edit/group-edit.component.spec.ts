@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { RouterTestingModule } from '@angular/router/testing';
 import { GroupEditComponent } from './group-edit.component';
 
 describe('GroupEditComponent', () => {
@@ -8,7 +9,7 @@ describe('GroupEditComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [GroupEditComponent]
+      imports: [GroupEditComponent, HttpClientTestingModule, RouterTestingModule],
     })
     .compileComponents();
     
